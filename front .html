@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ImageSlider@Tech</title>
+
+      
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    </head>
+    <body>
+        
+            <section class="main swiper mySwiper">
+                <div class="wrapper swiper-wrapper ">
+                    <div class="slider swiper-slide">
+                        <img src="images/img1.jpeg" alt="first image" class="image-item">
+                       <div class="image-date">
+                           <span class="text">Best places to visit</span>
+                       </div>
+                    </div>
+                    <div class="slider swiper-slide">
+                        <img src="images/img2.jpg" alt="first image" class="image-item">
+                       <div class="image-date">
+                           <span class="text"></span>
+                       </div>
+                    </div>
+                
+                    <div class="slider swiper-slide">
+                        <img src="images/img3.jpeg" alt="first image" class="image-item">
+                       <div class="image-date">
+                           <span class="text"></span>
+                       </div>
+                    </div>
+                    <div class="slider swiper-slide">
+                        <img src="images/img4.jpg" alt="first image" class="image-item">
+                       <div class="image-date">
+                           <span class="text"></span>
+                       </div>
+                    </div>
+                    <div class="slider swiper-slide">
+                        <img src="images/img5.jpg" alt="first image" class="image-item">
+                       <div class="image-date">
+                           <span class="text"></span>
+                       </div>
+                    </div>
+                    <div class="slider swiper-slide">
+                        <img src="images/img6.jpg" alt="first image" class="image-item">
+                       <div class="image-date">
+                           <span class="text"></span>
+                       </div>
+                    </div>
+                    <div class="slider swiper-slide">
+                        <img src="images/img7.jpg" alt="first image" class="image-item">
+                       <div class="image-date">
+                           <span class="text"> </span>
+                       </div>
+                    </div>
+                 <div class="slider swiper-slide">
+                        <img src="images/img8.jpg" alt="first image" class="image-item">
+                       <div class="image-date">
+                           <span class="text"></span>
+                       </div>
+                    </div>
+                    <div class="slider swiper-slide">
+                        <img src="images/img9.jpg" alt="first image" class="image-item">
+                       <div class="image-date">
+                           <span class="text"></span>
+                       </div>
+                    </div>
+                    <div class="slider swiper-slide">
+                        <img src="images/img10.jpg" alt="first image" class="image-item">
+                       <div class="image-date">
+                           <span class="text"></span>
+                       </div>
+                    </div>
+                    
+                </div>
+                
+                    </div>
+                    <div class="swiper-button-next nav-btn"></div>
+                    <div class="swiper-button-prev nav-btn"></div>
+                    <div class="swiper-pagination"></div>
+            </section>
+            <script src="js/swiper-bundle.min.js"></script>
+            <script>
+             var swiper = new Swiper(".mySwiper", {
+                 slidesPerView: 1,
+                 loop: true,
+                 pagination: {
+                   el: ".swiper-pagination",
+                   clickable: true,
+                 },
+                 navigation: {
+                   nextEl: ".swiper-button-next",
+                   prevEl: ".swiper-button-prev",
+                 },
+               });
+            </script>
+        </body>
+     
+    
+</html>
